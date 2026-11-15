@@ -1,0 +1,80 @@
+{
+  "selected_model": "Multinomial Naive Bayes",
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_records_after_cleaning": 200,
+  "train_records": 160,
+  "test_records": 40,
+  "label_mapping": {
+    "fake": "fake",
+    "real": "real"
+  },
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.775,
+      "precision_macro": 0.7813299232736572,
+      "recall_macro": 0.7749999999999999,
+      "f1_macro": 0.7737272155876807,
+      "classification_report": {
+        "fake": {
+          "precision": 0.8235294117647058,
+          "recall": 0.7,
+          "f1-score": 0.7567567567567568,
+          "support": 20.0
+        },
+        "real": {
+          "precision": 0.7391304347826086,
+          "recall": 0.85,
+          "f1-score": 0.7906976744186046,
+          "support": 20.0
+        },
+        "accuracy": 0.775,
+        "macro avg": {
+          "precision": 0.7813299232736572,
+          "recall": 0.7749999999999999,
+          "f1-score": 0.7737272155876807,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.7813299232736572,
+          "recall": 0.775,
+          "f1-score": 0.7737272155876808,
+          "support": 40.0
+        }
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.8,
+      "precision_macro": 0.803030303030303,
+      "recall_macro": 0.8,
+      "f1_macro": 0.7994987468671679,
+      "classification_report": {
+        "fake": {
+          "precision": 0.8333333333333334,
+          "recall": 0.75,
+          "f1-score": 0.7894736842105263,
+          "support": 20.0
+        },
+        "real": {
+          "precision": 0.7727272727272727,
+          "recall": 0.85,
+          "f1-score": 0.8095238095238095,
+          "support": 20.0
+        },
+        "accuracy": 0.8,
+        "macro avg": {
+          "precision": 0.803030303030303,
+          "recall": 0.8,
+          "f1-score": 0.7994987468671679,
+          "support": 40.0
+        },
+        "weighted avg": {
+          "precision": 0.8030303030303031,
+          "recall": 0.8,
+          "f1-score": 0.7994987468671679,
+          "support": 40.0
+        }
+      }
+    }
+  }
+}

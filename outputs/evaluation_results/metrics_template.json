@@ -1,0 +1,30 @@
+{
+  "status": "PENDING_TRAINING",
+  "note": "Template only. Run python src/train_model.py to generate real evaluation metrics. Do not report these null values as model performance.",
+  "selected_model": null,
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_records_after_cleaning": null,
+  "train_records": null,
+  "test_records": null,
+  "label_mapping": {
+    "fake": "fake",
+    "real": "real"
+  },
+  "models": {
+    "Logistic Regression": {
+      "accuracy": null,
+      "precision_macro": null,
+      "recall_macro": null,
+      "f1_macro": null,
+      "classification_report": null
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": null,
+      "precision_macro": null,
+      "recall_macro": null,
+      "f1_macro": null,
+      "classification_report": null
+    }
+  }
+}
